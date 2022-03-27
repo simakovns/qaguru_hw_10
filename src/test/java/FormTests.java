@@ -33,7 +33,7 @@ public class FormTests extends TestBase{
 
     @Test
     void fillForm() {
-        open("https://demoqa.com/automation-practice-form");
+        open("/automation-practice-form");
         final FormPage formPage = new FormPage();
 
         formPage.setFirstName(name)

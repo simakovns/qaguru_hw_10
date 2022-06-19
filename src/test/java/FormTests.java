@@ -61,7 +61,6 @@ public class FormTests extends TestBase{
                 .checkResult("Reading")
                 .checkResult(fileName)
                 .checkResult(currentAddress)
-                .checkResult(state + " " + city)
-                .closeModal();
+                .checkResult(state + " " + city);
     }
 }
